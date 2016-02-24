@@ -1,0 +1,28 @@
+{
+  "name": "react-protfolio",
+  "version": "1.0.0",
+  "description": "making a simple portfolio template with react",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --inline --quiet",
+    "webpack": "webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IanMcKe/react-portfolio.git"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
