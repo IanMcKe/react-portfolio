@@ -1,5 +1,7 @@
-// Typography
-$base-font-family: $helvetica;
+// Typography\
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+$base-font-family: 'Varela Round';
+// $base-font-family: $helvetica;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
